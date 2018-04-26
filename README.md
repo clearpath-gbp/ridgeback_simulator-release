@@ -1,3 +1,30 @@
+## ridgeback_simulator (kinetic) - 0.0.3-0
+
+The packages in the `ridgeback_simulator` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release ridgeback_simulator -r kinetic -t kinetic` on `Thu, 26 Apr 2018 04:38:17 -0000`
+
+These packages were released:
+- `mecanum_gazebo_plugin`
+- `ridgeback_gazebo`
+- `ridgeback_gazebo_plugins`
+- `ridgeback_simulator`
+
+Version of package(s) in repository `ridgeback_simulator`:
+
+- upstream repository: https://github.com/ridgeback/ridgeback_simulator.git
+- release repository: https://github.com/clearpath-gbp/ridgeback_simulator-release.git
+- rosdistro version: `null`
+- old version: `0.0.2-0`
+- new version: `0.0.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.1`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## ridgeback_simulator (kinetic) - 0.0.2-0
 
 The packages in the `ridgeback_simulator` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release ridgeback_simulator -t kinetic -r kinetic --new-track` on `Thu, 12 Apr 2018 04:49:26 -0000`
