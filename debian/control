@@ -1,0 +1,12 @@
+Source: ros-melodic-ridgeback-gazebo
+Section: misc
+Priority: extra
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roslaunch
+Homepage: http://wiki.ros.org/ridgeback_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ridgeback-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-gazebo-plugins, ros-melodic-gazebo-ros, ros-melodic-gazebo-ros-control, ros-melodic-hector-gazebo-plugins, ros-melodic-ridgeback-control, ros-melodic-ridgeback-description (>= 0.1.6), ros-melodic-ridgeback-gazebo-plugins
+Description: Launchfiles to use Ridgeback in Gazebo.
