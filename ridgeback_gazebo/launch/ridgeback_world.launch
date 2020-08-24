@@ -9,13 +9,11 @@
   <arg name="y" default="0"/>
   <arg name="z" default="0.1"/>
   <arg name="yaw" default="0"/>
+  <arg name="joystick" default="true" />
 
   <!-- Configuration of Ridgeback which you would like to simulate.
        See ridgeback_description for details. -->
   <arg name="config" default="$(optenv RIDGEBACK_CONFIG base)" />
-
-  <!-- optionally disable teleoperation -->
-  <arg name="joystick" default="true" />
 
   <!-- Launch Gazebo with the specified world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
@@ -27,14 +25,13 @@
     <arg name="paused" value="false"/>
   </include>
 
-  <!-- Load Ridgeback's description, controllers, and teleop nodes. -->
   <include file="$(find ridgeback_gazebo)/launch/spawn_ridgeback.launch">
     <arg name="config" value="$(arg config)" />
-    <arg name="x" value="$(arg x)"/>
-    <arg name="y" default="$(arg y)"/>
-    <arg name="z" default="$(arg z)"/>
-    <arg name="yaw" default="$(arg yaw)"/>
-    <arg name="joystick" default="$(arg joystick)" />
+    <arg name="x" value="$(arg x)" />
+    <arg name="y" value="$(arg y)" />
+    <arg name="z" value="$(arg z)" />
+    <arg name="yaw" value="$(arg yaw)" />
+    <arg name="joystick" value="$(arg joystick)" />
   </include>
 
 </launch>
