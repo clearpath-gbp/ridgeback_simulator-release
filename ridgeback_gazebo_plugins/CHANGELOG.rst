@@ -2,6 +2,9 @@
 Changelog for package ridgeback_gazebo_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.4 (2020-08-24)
+------------------
+
 0.0.3 (2018-04-26)
 ------------------
 * Fixed deps for kinetic.
