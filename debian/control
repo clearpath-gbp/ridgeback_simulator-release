@@ -1,0 +1,12 @@
+Source: ros-melodic-ridgeback-simulator
+Section: misc
+Priority: optional
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://wiki.ros.org/ridgeback_simulator
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ridgeback-simulator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-ridgeback-gazebo
+Description: Packages for simulating Ridgeback.
