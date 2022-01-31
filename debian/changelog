@@ -1,0 +1,38 @@
+ros-noetic-ridgeback-simulator (0.2.0-1buster) buster; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Thu, 27 Jan 2022 05:00:00 -0000
+
+ros-noetic-ridgeback-simulator (0.1.1-1buster) buster; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Mon, 24 Aug 2020 04:00:00 -0000
+
+ros-noetic-ridgeback-simulator (0.1.0-1buster) buster; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Mon, 22 Jul 2019 04:00:00 -0000
+
+ros-noetic-ridgeback-simulator (0.0.3-1buster) buster; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Thu, 26 Apr 2018 04:00:00 -0000
+
+ros-noetic-ridgeback-simulator (0.0.2-1buster) buster; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Mon, 08 May 2017 04:00:00 -0000
+
+ros-noetic-ridgeback-simulator (0.0.1-1buster) buster; urgency=high
+
+  * Initial release.
+  * Contributors: Tony Baltovski
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Wed, 25 May 2016 04:00:00 -0000
+
+
