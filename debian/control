@@ -1,0 +1,12 @@
+Source: ros-noetic-ridgeback-gazebo
+Section: misc
+Priority: optional
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-roslaunch
+Homepage: http://wiki.ros.org/ridgeback_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-noetic-ridgeback-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-gazebo-plugins, ros-noetic-gazebo-ros, ros-noetic-gazebo-ros-control, ros-noetic-hector-gazebo-plugins, ros-noetic-ridgeback-control, ros-noetic-ridgeback-description (>= 0.1.6), ros-noetic-ridgeback-gazebo-plugins
+Description: Launchfiles to use Ridgeback in Gazebo.
