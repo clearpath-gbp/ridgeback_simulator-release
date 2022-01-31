@@ -1,0 +1,18 @@
+name: ridgeback_simulator_ci
+
+on: [push, pull_request]
+
+jobs:
+
+  ridgeback_simulator_noetic_ci:
+    name: noetic
+    strategy:
+      matrix:
+        env:
+          - {ROS_DISTRO: noetic, ROS_REPO: main}
+          - {ROS_DISTRO: noetic, ROS_REPO: testing}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: 'ros-industrial/industrial_ci@master'
+        env: ${{matrix.env}}
